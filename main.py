@@ -4,8 +4,8 @@ from bokeh.models import ColumnDataSource, Select
 import pandas as pd
 
 # import our csv files into dataframes
-df_zip = pd.read_csv('/home/rraina1/nyc_dash/zip_avg.csv')
-df_month = pd.read_csv('/home/rraina1/nyc_dash/all_monthly_avg.csv')
+df_zip = pd.read_csv('zip_avg.csv')
+df_month = pd.read_csv('all_monthly_avg.csv')
 
 # define x and y axis
 x = df_month['month'].tolist()
